@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C159F3821BB4D540004F6564 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C159F3811BB4D540004F6564 /* AppDelegate.swift */; };
+		C159F3841BB4D540004F6564 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C159F3831BB4D540004F6564 /* ViewController.swift */; };
+		C159F3871BB4D540004F6564 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C159F3851BB4D540004F6564 /* Main.storyboard */; };
+		C159F3891BB4D540004F6564 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C159F3881BB4D540004F6564 /* Assets.xcassets */; };
+		C159F38C1BB4D540004F6564 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C159F38A1BB4D540004F6564 /* LaunchScreen.storyboard */; };
+		C159F3971BB4D540004F6564 /* Homework3RosterAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C159F3961BB4D540004F6564 /* Homework3RosterAppTests.swift */; };
+		C159F3A61BB4EBB4004F6564 /* RosterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C159F3A51BB4EBB4004F6564 /* RosterViewController.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C159F3931BB4D540004F6564 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C159F3761BB4D540004F6564 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C159F37D1BB4D540004F6564;
+			remoteInfo = Homework3RosterApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C159F37E1BB4D540004F6564 /* Homework3RosterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homework3RosterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C159F3811BB4D540004F6564 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C159F3831BB4D540004F6564 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C159F3861BB4D540004F6564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C159F3881BB4D540004F6564 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C159F38B1BB4D540004F6564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C159F38D1BB4D540004F6564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C159F3921BB4D540004F6564 /* Homework3RosterAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Homework3RosterAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C159F3961BB4D540004F6564 /* Homework3RosterAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homework3RosterAppTests.swift; sourceTree = "<group>"; };
+		C159F3981BB4D540004F6564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C159F3A51BB4EBB4004F6564 /* RosterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RosterViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C159F37B1BB4D540004F6564 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C159F38F1BB4D540004F6564 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C159F3751BB4D540004F6564 = {
+			isa = PBXGroup;
+			children = (
+				C159F3801BB4D540004F6564 /* Homework3RosterApp */,
+				C159F3951BB4D540004F6564 /* Homework3RosterAppTests */,
+				C159F37F1BB4D540004F6564 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C159F37F1BB4D540004F6564 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C159F37E1BB4D540004F6564 /* Homework3RosterApp.app */,
+				C159F3921BB4D540004F6564 /* Homework3RosterAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C159F3801BB4D540004F6564 /* Homework3RosterApp */ = {
+			isa = PBXGroup;
+			children = (
+				C159F3811BB4D540004F6564 /* AppDelegate.swift */,
+				C159F3AB1BB4F781004F6564 /* Model */,
+				C159F3A91BB4F758004F6564 /* View */,
+				C159F3AA1BB4F75D004F6564 /* Controller */,
+				C159F3881BB4D540004F6564 /* Assets.xcassets */,
+				C159F38A1BB4D540004F6564 /* LaunchScreen.storyboard */,
+				C159F38D1BB4D540004F6564 /* Info.plist */,
+			);
+			path = Homework3RosterApp;
+			sourceTree = "<group>";
+		};
+		C159F3951BB4D540004F6564 /* Homework3RosterAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C159F3961BB4D540004F6564 /* Homework3RosterAppTests.swift */,
+				C159F3981BB4D540004F6564 /* Info.plist */,
+			);
+			path = Homework3RosterAppTests;
+			sourceTree = "<group>";
+		};
+		C159F3A91BB4F758004F6564 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C159F3851BB4D540004F6564 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C159F3AA1BB4F75D004F6564 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C159F3A51BB4EBB4004F6564 /* RosterViewController.swift */,
+				C159F3831BB4D540004F6564 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C159F3AB1BB4F781004F6564 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C159F37D1BB4D540004F6564 /* Homework3RosterApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C159F39B1BB4D540004F6564 /* Build configuration list for PBXNativeTarget "Homework3RosterApp" */;
+			buildPhases = (
+				C159F37A1BB4D540004F6564 /* Sources */,
+				C159F37B1BB4D540004F6564 /* Frameworks */,
+				C159F37C1BB4D540004F6564 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Homework3RosterApp;
+			productName = Homework3RosterApp;
+			productReference = C159F37E1BB4D540004F6564 /* Homework3RosterApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C159F3911BB4D540004F6564 /* Homework3RosterAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C159F39E1BB4D540004F6564 /* Build configuration list for PBXNativeTarget "Homework3RosterAppTests" */;
+			buildPhases = (
+				C159F38E1BB4D540004F6564 /* Sources */,
+				C159F38F1BB4D540004F6564 /* Frameworks */,
+				C159F3901BB4D540004F6564 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C159F3941BB4D540004F6564 /* PBXTargetDependency */,
+			);
+			name = Homework3RosterAppTests;
+			productName = Homework3RosterAppTests;
+			productReference = C159F3921BB4D540004F6564 /* Homework3RosterAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C159F3761BB4D540004F6564 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Francisco Ragland";
+				TargetAttributes = {
+					C159F37D1BB4D540004F6564 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					C159F3911BB4D540004F6564 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = C159F37D1BB4D540004F6564;
+					};
+				};
+			};
+			buildConfigurationList = C159F3791BB4D540004F6564 /* Build configuration list for PBXProject "Homework3RosterApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C159F3751BB4D540004F6564;
+			productRefGroup = C159F37F1BB4D540004F6564 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C159F37D1BB4D540004F6564 /* Homework3RosterApp */,
+				C159F3911BB4D540004F6564 /* Homework3RosterAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C159F37C1BB4D540004F6564 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C159F38C1BB4D540004F6564 /* LaunchScreen.storyboard in Resources */,
+				C159F3891BB4D540004F6564 /* Assets.xcassets in Resources */,
+				C159F3871BB4D540004F6564 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C159F3901BB4D540004F6564 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C159F37A1BB4D540004F6564 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C159F3841BB4D540004F6564 /* ViewController.swift in Sources */,
+				C159F3A61BB4EBB4004F6564 /* RosterViewController.swift in Sources */,
+				C159F3821BB4D540004F6564 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C159F38E1BB4D540004F6564 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C159F3971BB4D540004F6564 /* Homework3RosterAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C159F3941BB4D540004F6564 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C159F37D1BB4D540004F6564 /* Homework3RosterApp */;
+			targetProxy = C159F3931BB4D540004F6564 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C159F3851BB4D540004F6564 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C159F3861BB4D540004F6564 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C159F38A1BB4D540004F6564 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C159F38B1BB4D540004F6564 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C159F3991BB4D540004F6564 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C159F39A1BB4D540004F6564 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C159F39C1BB4D540004F6564 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Homework3RosterApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.franciscoragland.Homework3RosterApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C159F39D1BB4D540004F6564 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Homework3RosterApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.franciscoragland.Homework3RosterApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C159F39F1BB4D540004F6564 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Homework3RosterAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.franciscoragland.Homework3RosterAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Homework3RosterApp.app/Homework3RosterApp";
+			};
+			name = Debug;
+		};
+		C159F3A01BB4D540004F6564 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Homework3RosterAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.franciscoragland.Homework3RosterAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Homework3RosterApp.app/Homework3RosterApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C159F3791BB4D540004F6564 /* Build configuration list for PBXProject "Homework3RosterApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C159F3991BB4D540004F6564 /* Debug */,
+				C159F39A1BB4D540004F6564 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C159F39B1BB4D540004F6564 /* Build configuration list for PBXNativeTarget "Homework3RosterApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C159F39C1BB4D540004F6564 /* Debug */,
+				C159F39D1BB4D540004F6564 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C159F39E1BB4D540004F6564 /* Build configuration list for PBXNativeTarget "Homework3RosterAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C159F39F1BB4D540004F6564 /* Debug */,
+				C159F3A01BB4D540004F6564 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C159F3761BB4D540004F6564 /* Project object */;
+}
