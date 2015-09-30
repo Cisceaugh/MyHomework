@@ -8,28 +8,49 @@
 
 import UIKit
 
-class PersonClassViewController: UIViewController {
 
+
+class PersonClassViewController: UIViewController, UITableViewDataSource {
+    
+    @IBOutlet weak var personTableView: UITableView!
+    
+    var peopleArray = [Person]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        personTableView.dataSource = self
+        
+        let firstPerson = Person(personFirstName: "Francisco", personLastName: "Ragland")
+        let secondPerson = Person(personFirstName: "Roman", personLastName: "Salazar")
+        let thirdPerson = Person(personFirstName: "Ean", personLastName: "Tatum")
+        let fourthPerson = Person(personFirstName: "Marina", personLastName: "Sanchez")
+        
+        peopleArray.append(firstPerson)
+        peopleArray.append(secondPerson)
+        peopleArray.append(thirdPerson)
+        peopleArray.append(fourthPerson)
 
         // Do any additional setup after loading the view.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return peopleArray.count
     }
-    */
+    //Gets called for every row that will be on screen
+    //Gets called 4 times here
+    //indexPath is referring to the row that this method is acting on
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        
+        // Part 1 dequeue reusable cell
+        let cell = tableView.dequeueReusableCellWithIdentifier("Person", forIndexPath: indexPath)
+        // Part 2 configure cell
+        let person = peopleArray[indexPath.row]
+        cell.textLabel?.text = "\(person.firstName) \(person.lastName)"
+        // Part 3 return the cell
+        return cell
+    }
+
+
 
 }
